@@ -62,7 +62,7 @@ cc.run({
                 title: '¡Hola!',
                 description: 'Nuestro sitio web utiliza cookies esenciales para garantizar su correcto funcionamiento y cookies de seguimiento para comprender cómo interactúa usted con él.',
                 primary_btn: {
-                    text: 'Aceptar todo',
+                    text: 'Aceptar',
                     role: 'accept_all'      //'accept_selected' or 'accept_all'
                 },
                 secondary_btn: {
@@ -74,8 +74,8 @@ cc.run({
             settings_modal: {
                 title: 'Configuración Cookies',
                 save_settings_btn: 'Guardar',
-                accept_all_btn: 'Aceptar todas',
-                reject_all_btn: 'Rechazar todas',
+                accept_all_btn: 'Aceptar',
+                reject_all_btn: 'Rechazar',
                 close_btn_label: 'Cerrar',
                 cookie_table_headers: [
                     {col1: 'Nombre'},
